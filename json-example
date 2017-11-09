@@ -1,0 +1,163 @@
+{
+  "cashCreditInd":false,
+  "companyCode":"SN",
+  "guQuotSubjectVoList":[
+    {
+      "guQuotSubjectVehicelVo":{
+        "engineNo":"2222222",
+        "ncdYears":1,
+        "parallelImport":false,
+        "classicNo":"LLASFASK123213123",
+        "madeYear":"2014",
+        "ncdPercent":20,
+        "seats":7,
+        "capacity":1222,
+        "bodyKit":"N",
+        "ownerName":"xiao ming",
+        "modelCode":"BDFA105213",
+        "registrationNo":"FGV55555",
+        "makeCode":"BMW",
+        "modelDesc":"宝马，，，，，",
+        "autoSafe":false
+      },
+      "subjectType":"1111",
+      "subjectName":"Vehicle"
+    }
+  ],
+  "coinsInd":false,
+  "agentCode":"123456",
+  "agentName":"aaaaaaaaa",
+  "GST":111,
+  "guQuotPaymentPlanVoList":[
+    {
+      "amounts":2563,
+      "guQuotPaymentPlanDetailVoList":[
+        {
+          "amounts":2563,
+          "feeTypeCode":"R10",
+          "instalmentNo":1,
+          "payerName":"xiao ming",
+          "currency":"CNY",
+          "payDate":"Sat Nov 11 00:00:00 GMT+08:00 2017"
+        }
+      ],
+      "instalmentNo":1,
+      "payerName":"xiao ming",
+      "currency":"CNY",
+      "payDate":"Sat Nov 11 00:00:00 GMT+08:00 2017"
+    }
+  ],
+  "guQuotInsuredVoList":[
+    {
+      "insuredCode":"111",
+      "insuredType":"01",
+      "insuredAddress":"深圳市",
+      "insuredName":"xiao ming"
+    }
+  ],
+  "expiryDate":"Sat Nov 10 00:00:00 GMT+08:00 2018",
+  "commDate":"Fri Nov 10 00:00:00 GMT+08:00 2017",
+  "guQuotRiskVoList":[
+    {
+      "expiryDate":"Sat Nov 10 00:00:00 GMT+08:00 2018",
+      "commDate":"Fri Nov 10 00:00:00 GMT+08:00 2017",
+      "sumInsured":1000000,
+      "exchangeRate":1,
+      "guQuotSubjectRiskVoList":[
+        {
+          "guQuotItemVoList":[
+            {
+              "itemName":"xxxx险",
+              "guQuotUOMVoList":[
+                {
+                  "uomCode":"SI",
+                  "riskCode":"0102",
+                  "uomName":"Sum Insured",
+                  "uomUnit":"qwe"
+                }
+              ],
+              "guQuotBenefitVoList":[
+                {
+                  "premiumDue":100,
+                  "benefitName":"aaaa",
+                  "benefitNo":1,
+                  "riskCode":"0102",
+                  "currency":"CNY",
+                  "benefitCode":"QQQ"
+                }
+              ],
+              "sumInsured":500000,
+              "itemCode":"010201",
+              "gst":111,
+              "currency":"CNY",
+              "itemDetail":"xxxxxxxxxxx险",
+              "guQuotCoverageVoList":[
+                {
+                  "sumInsured":121001,
+                  "coverageName":"kansklj险",
+                  "coverageNo":1,
+                  "coverageCode":"00000"
+                }
+              ],
+              "sumPremium":1234
+            },
+            {
+              "itemName":"yyyy险",
+              "sumInsured":500000,
+              "itemCode":"010202",
+              "gst":111,
+              "currency":"CNY",
+              "itemDetail":"yyyyyyyyyyy险",
+              "sumPremium":2134
+            }
+          ],
+          "subjectNo":1,
+          "guQuotCommissionVo":{
+            "commisGrossPercent":0.01,
+            "amount":265.3,
+            "modifyInd":true,
+            "commisType":"201",
+            "riskCode":"0102",
+            "currency":"CNY"
+          },
+          "riskCode":"0102",
+          "validInd":true,
+          "sumPremium":2653,
+          "subjectId":1,
+          "expiryDate":"Sat Nov 10 00:00:00 GMT+08:00 2018",
+          "guQuotExpenseVoList":[
+            {
+              "amount":2653,
+              "feeTypeCode":"R10",
+              "riskCode":"0102",
+              "currency":"CNY"
+            }
+          ],
+          "commDate":"Fri Nov 10 00:00:00 GMT+08:00 2017",
+          "sumInsured":1000000,
+          "exchangeRate":1,
+          "riskNo":1,
+          "currency":"CNY"
+        }
+      ],
+      "riskCode":"0102",
+      "currency":"CNY",
+      "validInd":true,
+      "sumPremium":2653
+    }
+  ],
+  "exchangeRate":1,
+  "guQuotClausesVoList":[
+    {
+      "clauseCode":"C0001",
+      "clauseTitle":"qqq",
+      "displayNo":1,
+      "lineNo":1,
+      "clauseDetail":"ddddd",
+      "titleInd":true
+    }
+  ],
+  "currency":"CNY",
+  "codInd":true,
+  "businessChannel":"123123"
+}
